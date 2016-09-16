@@ -1,0 +1,156 @@
+body {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+}
+#container {
+    width: 90%%;
+    max-width: 100%;
+    margin: 5%;
+    float: left;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    padding: 15px;
+    overflow: hidden;
+}
+h1, h2, p, a {
+    color: #fff;
+    text-align: center;
+}
+h1 {
+    font-size: 38px;
+}
+h2 {
+    font-size: 16px;
+}
+a {
+    font-size: 13px;
+}
+.about-chart,
+.about-chart2 {
+    width: 400px;
+    margin: 40px auto 40px auto;
+    color: #fff;
+    line-height: 200%;
+}
+.about-chart2 {
+    width: 200px;
+}
+.about-chart span,
+.about-chart2 span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-bottom: -4px;
+    margin-right: 5px;
+}
+.about-chart span:first-of-type {
+    background-color: rgba(30, 215, 96, .7);
+}
+.about-chart span {
+    background-color: rgba(0, 136, 204, .7);
+}
+.about-chart span:last-of-type {
+    background-color: rgba(255, 0, 0, .7);
+}
+.about-chart2 span:first-of-type {
+    background-color: rgba(30, 215, 96, .7);
+}
+.about-chart2 span:last-of-type {
+    background-color: rgba(0, 136, 204, .7);
+}
+
+/* CT CHART */
+.chart-container {
+    width: 100%;
+    float: left;
+}
+.chart-inner-container1,
+.chart-inner-container2 {
+    width: 100%;
+    float: left;
+}
+.chart-inner-container1 {
+    margin-bottom: 100px;
+}
+.chart-inner-container2 {
+    margin-top: 100px;
+}
+.chart-box {
+    width: 100%;
+    float: left;
+    padding: 20px 0;
+}
+.chart-box-inner,
+.chart-box-inner-text {
+    width: 20%;
+    min-width: 20%;
+    float: left;
+    display: inline-block;
+}
+.chart-box-inner-text {
+    width: 30%;
+    min-width: 30%;
+    padding-top: 23px;
+}
+.chart-box-inner-text h2,
+.chart-box-inner-text p {
+    text-align: left;
+}
+.chart-box-inner-text h2 {
+    text-decoration: underline;
+}
+.ct-series-a .ct-area, .ct-series-a .ct-slice-pie {
+    fill: rgba(30, 215, 96, .7);
+}
+.ct-series-a .ct-area, .ct-series-b .ct-slice-pie {
+    fill: rgba(0, 136, 204, .7);
+}
+.ct-series-a .ct-area, .ct-series-c .ct-slice-pie {
+    fill: rgba(255, 0, 0, .7);
+}
+.ct-label {
+    fill: rgba(255, 255, 255, .9);
+    font-size: 15px;
+}
+
+.ct-chart {
+    width: 100%;
+    height: 400px;
+    float: left;
+}
+.ct-chart-bar .ct-label.ct-horizontal.ct-end {
+    color: rgba(255, 255, 255, .8);
+    font-size: 15px;
+}
+.ct-label.ct-vertical.ct-start {
+    color: rgba(255, 255, 255, .8);
+    font-size: 15px;
+}
+.ct-series-a .ct-bar {
+    stroke: rgba(30, 215, 96, .8);
+    stroke-width: 40px;
+}
+.ct-series-b .ct-bar {
+    stroke: rgba(0, 136, 204, .8);
+    stroke-width: 40px;
+}
+.ct-grid {
+    stroke: rgba(255, 255, 255, .8);
+}
+
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
