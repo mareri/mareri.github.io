@@ -1,5 +1,5 @@
 /* Chart */
-$("#scroll").click(function(){
+$("#button").click(function(){
      window.location.hash = '#chart-inner-container2';
    });
 
