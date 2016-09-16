@@ -1,5 +1,7 @@
 /* Chart */
-
+$("h1").click(function(){
+     alert('Handler for .click() called.')
+   });
 
 /* Self distributed unsigned */
 var data = {
