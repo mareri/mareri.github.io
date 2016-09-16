@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Chart</title>
+        <link rel="stylesheet" href="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+        <script src="http://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <video playsinline autoplay muted loop poster="video/Snapshots/In-And-Out.jpg" id="bgvid">
+            <source src="video/WEBM/In-And-Out.webm" type="video/webm">
+            <source src="video/MP4/In-And-Out.mp4" type="video/mp4">
+        </video>
+
+        <div id="container">
+            <h1>How much do music artists earn online?</h1>
+            <h2>For a solo artist to earn US monthly min. wage $1,260</h2>
+            <div class="about-chart"><span></span>Artist &nbsp;&nbsp;<span></span>Label &nbsp;&nbsp;<span></span>Distributor / Retailer</div>
+
+            <div class="chart-container">
+                <div class="chart-inner-container1">
+                    <div class="chart-box">
+                        <div class="chart-box-inner ct-chart-selfdistributed-unsigned"></div>
+                        <div class="chart-box-inner-text">
+                            <h2>Self distributed - Unsigned</h2>
+                            <p>Retail price: $12.00<br/>Must sell units: 105</p>
+                        </div>
+                        <div class="chart-box-inner ct-chart-selfdistributed-signed"></div>
+                        <div class="chart-box-inner-text">
+                            <h2>Self distributed - Signed</h2>
+                            <p>Retail price: $12.00<br/>Must sell units: 457</p>
+                        </div>
+                    </div>
+                    <div class="chart-box">
+                        <div class="chart-box-inner ct-chart-itunes-album-unsigned"></div>
+                        <div class="chart-box-inner-text">
+                            <h2>iTunes album download - Unsigned</h2>
+                            <p>Retail price: $9.99<br/>Must sell units: 210</p>
+                        </div>
+                        <div class="chart-box-inner ct-chart-itunes-album-signed"></div>
+                        <div class="chart-box-inner-text">
+                            <h2>iTunes album download - Signed</h2>
+                            <p>Retail price: $9.99<br/>Must sell units: 547</p>
+                        </div>
+                    </div>
+                    <div class="chart-box">
+                        <div class="chart-box-inner ct-chart-itunes-track-unsigned"></div>
+                        <div class="chart-box-inner-text">
+                            <h2>iTunes track download - Unsigned</h2>
+                            <p>Retail price: $0.99<br/>Must sell units: 1,826</p>
+                        </div>
+                        <div class="chart-box-inner ct-chart-itunes-track-signed"></div>
+                        <div class="chart-box-inner-text">
+                            <h2>iTunes track download - Signed</h2>
+                            <p>Retail price: $0.99<br/>Must sell units: 5,428</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-inner-container2">
+                  <h1>Streams</h1>
+                  <div class="about-chart2"><span></span>Signed &nbsp;&nbsp;<span></span>Unsigned</div>
+                    <div class="ct-chart"></div>
+                </div>
+            </div>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>
