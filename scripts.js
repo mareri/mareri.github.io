@@ -1,8 +1,7 @@
-/* Chart */
-$("#button").click(function(){
-     alert("yes");
+/* Scroll */
+$("#scroll").click(function(){
      window.location.hash = '#chart-inner-container2';
-   });
+});
 
 /* Self distributed unsigned */
 var data = {
