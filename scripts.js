@@ -1,6 +1,6 @@
 /* Chart */
-$("#button").click(function(){
-     alert('Handler for .click() called.')
+$("#scroll").click(function(){
+     window.location.hash = '#chart-inner-container2';
    });
 
 /* Self distributed unsigned */
